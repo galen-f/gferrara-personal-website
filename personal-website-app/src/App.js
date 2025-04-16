@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './components/pages/Home'
+import Home from './components/pages/Home';
+import Lavender from './components/pages/Lavender';
+import Pebble from './components/pages/Pebble';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -10,8 +12,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element=
-          {<Home />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/lavender' element={<Lavender />} />
+          <Route path='/pebble' element={<Pebble />} />
         </Routes>
       </Router>
     </>

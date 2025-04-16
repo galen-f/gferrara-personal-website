@@ -14,14 +14,14 @@ function Cards() {
                     src="images/img-9.jpg"
                     text="Lavender Launcher"
                     label="Kotlin"
-                    path='/portfolio'
+                    path='/lavender'
                     />
 
                     <CardItem 
                     src="images/img-8.jpg"
                     text="Pebble - Photo Organization"
                     label="Python"
-                    path='/portfolio'
+                    path='/pebble'
                     />
                 </div>
             </div>
