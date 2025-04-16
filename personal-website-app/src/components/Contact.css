@@ -1,7 +1,7 @@
 .contact {
     padding: 4rem;
     height: 100vh;
-    background: url('C:\Users\Asus\Desktop\personal-website\personal-website-app\public\images\img-home.jpg') center center/cover no-repeat;
+    background: url('C:\Users\Asus\Desktop\personal-website\personal-website-app\public\images\image-1.jpg') center center/cover no-repeat;
 }
 
 h1 {
@@ -44,12 +44,16 @@ h1 {
     font-size: 20px;
 }
 
+.contact__title {
+    font-size: 52px
+}
+
 .contact__image img{
-    max-width: 24vw;
-    max-height: 24vh;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
+    width: 12rem;
+    height: 12rem;
+  
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .contact__socials {
@@ -100,9 +104,13 @@ h1 {
         padding: 2rem;
     }
 
+    .contact__title {
+        font-size: 42px
+    }
+
     .contact__image img{
-        max-width: 50vw;
-        max-height: 50vh;
+        width: 10rem;
+        height: 10rem;
     }
     
 }

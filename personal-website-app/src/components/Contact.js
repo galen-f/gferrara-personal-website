@@ -7,14 +7,15 @@ function Contact() {
     <div className="contact" id="contact">
         
         <div className="contact__container">
+            <div >
+                <h1 className="contact__title">Contact Me!</h1>
+            </div>
             <div className="contact__wrapper">
 
                 <div className="contact__left">
-                    <div className="contact__title">
-                        <h1>Contact Me!</h1>
-                    </div>
+                    
                     <div className="contact__image">
-                        <img src="images/img-6.jpg" alt="Me!"/>
+                        <img src="images/profile.jpg" alt="Me!"/>
                     </div>
                 </div>
 
