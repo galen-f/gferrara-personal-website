@@ -1,0 +1,109 @@
+.contact {
+    padding: 4rem;
+    height: 100vh;
+    background: url('C:\Users\Asus\Desktop\personal-website\personal-website-app\public\images\img-home.jpg') center center/cover no-repeat;
+}
+
+h1 {
+    color: #fff;
+}
+
+.contact__container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1120px;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact__wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__left,
+.contact__right {
+    padding: 4rem;
+}
+
+.contact__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__details > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.contact__image img{
+    max-width: 24vw;
+    max-height: 24vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.contact__socials {
+    display: flex;
+    flex-direction:row;
+    margin: 16px;
+    text-align: center;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.contact__socials > h2 {
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.contact__socials > a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    padding: 8px;
+    outline: #fff solid 2px;
+    border-radius: 2px;
+    margin: 8px;
+}
+
+.contact__socials a:hover{
+    color: #242424;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .contact__socials {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__left,
+    .contact__right {
+        padding: 2rem;
+    }
+
+    .contact__image img{
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+    
+}

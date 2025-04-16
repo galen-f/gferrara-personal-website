@@ -13,11 +13,11 @@ function HeroSection() {
 
         <Button className='btns' buttonStyle='btn--outline' 
         buttonSize='btn--large'> 
-        VIEW DETAILS 
+        CONTACT 
         </Button>
 
         <Button className='btns' buttonStyle='btn--primary' 
-        buttonSize='btn--large'> KILL YOURSEF </Button>
+        buttonSize='btn--large'> VIEW RESUME </Button>
 
         </div>
 

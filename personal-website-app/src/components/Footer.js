@@ -13,12 +13,6 @@ function Footer() {
 
         <div className="footer-links">
             <div className="footer-link-wrapper">
-                <div className="footer-link-items">
-                    <h2> Social Media </h2>
-                    <Link to='https://www.instagram.com/galen.f_/'><i className="bi bi-instagram"></i> Instagram </Link>
-                    <Link to='https://www.linkedin.com/in/galen-ferrara'><i className="bi bi-linkedin"></i> Linked-In </Link>
-                    <Link to='https://github.com/galen-f'><i className="bi bi-github"></i> GitHub </Link>
-                </div>
             </div>
         </div>
     </div>
