@@ -53,9 +53,7 @@ h1 {
 }
 
 .contact__socials {
-    display: flex;
-    flex-direction:row;
-    margin: 16px;
+    margin: 2rem;
     text-align: center;
     width: auto;
     box-sizing: border-box;
@@ -85,6 +83,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .contact__socials {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;

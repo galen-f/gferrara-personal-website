@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
-import { Button} from './Button';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 
 function HeroSection() {
@@ -11,18 +11,33 @@ function HeroSection() {
         <p>Software Developer</p>
         <div className="hero-btns">
 
-        <Button className='btns' buttonStyle='btn--outline' 
-        buttonSize='btn--large'> 
-        CONTACT 
-        </Button>
+        <Link className='btns' buttonStyle='btn--outline'
+        buttonSize='btn--large' onClick={ScrollToContact}> CONTACT ME </Link>
 
-        <Button className='btns' buttonStyle='btn--primary' 
-        buttonSize='btn--large'> VIEW RESUME </Button>
+        <Link className='btns' buttonStyle='btn--outline'
+        buttonSize='btn--large' onClick={ScrollToPortfolio}> PORTFOLIO </Link>
+
+        <Link className='btns' buttonStyle='btn--primary' 
+        buttonSize='btn--large'> VIEW RESUME </Link>
 
         </div>
 
     </div>
   )
+}
+
+function ScrollToContact() {
+  const contactSection = document.getElementById('contact');
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+function ScrollToPortfolio() {
+  const portfolioSection = document.getElementById('portfolio');
+  if (portfolioSection) {
+    portfolioSection.scrollIntoView({ behavior: 'smooth' });
+  }
 }
 
 export default HeroSection;

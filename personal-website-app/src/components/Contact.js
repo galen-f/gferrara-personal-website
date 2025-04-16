@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
         
         <div className="contact__container">
             <div className="contact__wrapper">

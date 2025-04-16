@@ -24,13 +24,25 @@
 }
 
 .hero-btns {
-    margin-top: 32px;
+    margin-top: 48px;
 
 }
 
-.hero-btns .btn {
-    margin:6px;
+.hero-btns > a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    padding: 12px;
+    outline: #fff solid 2px;
+    border-radius: 2px;
+    margin: 1.2rem;
+}
 
+.hero-btns > a:hover{
+    color: #242424;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 960px) {
@@ -50,9 +62,15 @@
         font-size: 30px;
     }
 
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
+    .hero-btns > a {
+        font-size: 14px;
+        padding: 12px;
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        flex-direction: column;
     }
 
     .btn {
