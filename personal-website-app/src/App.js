@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Lavender from './components/pages/Lavender';
 import Pebble from './components/pages/Pebble';
 import WIP from './components/pages/Work-in-Progress';
+import Footer from './components/Footer';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/Pebble' element={<Pebble />} />
           <Route path='/wip' element={<WIP />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

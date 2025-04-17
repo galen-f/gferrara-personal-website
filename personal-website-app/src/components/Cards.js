@@ -19,7 +19,7 @@ function Cards() {
 
                     <CardItem 
                     src="images/pinecone-icon.jpg"
-                    text="PineCone - Photo Organization"
+                    text="Pinecone - Photo Organization"
                     label="Python"
                     path='/wip'
                     />

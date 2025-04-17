@@ -7,14 +7,9 @@ function Footer() {
     <div className='footer-container'>
         <section className="footer-subscription">
             <p className="footer-subscription-heading">
-                Feel free to reach out to me regarding anything!    
+                Reach out anytime - galen.ferrara557@gmail.com - +44 7918 577 677 - +1 845 798 9409   
             </p>  
         </section>
-
-        <div className="footer-links">
-            <div className="footer-link-wrapper">
-            </div>
-        </div>
     </div>
   )
 }

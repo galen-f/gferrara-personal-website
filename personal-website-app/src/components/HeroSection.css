@@ -29,6 +29,12 @@
 
 }
 
+.bi-download
+{
+    padding: 4px;
+    font-size:large
+}
+
 .hero-btns > a {
     color: #fff;
     text-decoration: none;
