@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         <h1>Galen Ferrara</h1>
-        <p>Software Developer</p>
+        <p>Software Developer - Photographer</p>
         <div className="hero-btns">
 
         <Link className='btns' buttonStyle='btn--outline'

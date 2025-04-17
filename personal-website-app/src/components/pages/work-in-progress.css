@@ -1,0 +1,15 @@
+.work-in-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #fff;
+    padding-top: 5rem;
+}
+
+.work-in-progress h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}

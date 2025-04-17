@@ -1,7 +1,8 @@
 .contact {
     padding: 4rem;
     height: 100vh;
-    background: url('C:\Users\Asus\Desktop\personal-website\personal-website-app\public\images\image-1.jpg') center center/cover no-repeat;
+    background: url('../../public/images/image-1.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {

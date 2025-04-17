@@ -1,10 +1,15 @@
 .cards {
-    padding: 4rem;
+    padding: 8rem;
+    padding-bottom: 12rem;;
     background: #fff;
   }
   
   h1 {
     text-align: center;
+  }
+
+  .cards > h1 {
+    color: #242424 !important;
   }
   
   .cards__container {
