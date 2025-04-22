@@ -18,10 +18,10 @@ function Cards() {
                     />
 
                     <CardItem 
-                    src="images/pinecone-icon.jpg"
+                    src="images/pinecone-icon-bg.jpg"
                     text="Pinecone - Photo Organization"
-                    label="Python"
-                    path='/wip'
+                    label="JavaScript"
+                    path='/Pinecone'
                     />
 
                     <CardItem

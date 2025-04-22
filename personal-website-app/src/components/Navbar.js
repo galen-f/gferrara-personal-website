@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
         <div className="navbar-container">
             <Link to="/" className="navbar-logo">
-            GF
+            <img src="./GF-logo.png" alt="Logo" className="navbar-logo" />
             </Link>
         </div>
     </nav>
