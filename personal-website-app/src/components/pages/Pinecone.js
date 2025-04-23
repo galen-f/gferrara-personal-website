@@ -77,31 +77,32 @@ function PineconeDetailsSection() {
 			</h2>
 			<p className='project-details-text'>
 				Pinecone is a desktop app built with Electron that allows users to
-				select a local folder of images and videos, view them as thumbnails and
-				conviniently search through their collection. Internally it utilizes an
-				Express server to scan the folder, populate an in-memory SQLite
-				database, and server both original resolution files and 200x200
-				thumbnails.
+                select a local folder of images and videos, view them as thumbnails and
+                conveniently search through their collection. Internally it utilizes an
+                Express server to scan the folder, populate an in-memory SQLite
+                database, and serve both original resolution files and 200x200
+                thumbnails.
 				<br />
                 <br />
 				This project was initially designed during my internship at Granite
-				Associates. A client organization was looking for a cheap alternative to
-				expensive web-based photo organization systems. They had roughly 2 TB of
-				photos on a shared hard-drive they needed to be able to search and
-				organize. They tasked me with building this system. 
+                Associates. A client organization was looking for a cheap alternative to
+                expensive web-based photo organization systems. They had roughly 2 TB of
+                photos on a shared hard-drive they needed to be able to search and
+                organize. They tasked me with building this system. 
                 <br />
                 <br />
-                The first prototype	was designed using a Python Flask API and some basic JavaScript, with a
-				very heavy SQL database. When I returned to this project, about two
-				years later, looking to add it to my portfolio, I switched this to use a
-				much lighter system, with an Express API instead of Flask, and relying
-				on JavaScript much more. The database was switched to in-memory SQL.
-				This of course meant no real persistence, but lowered the memory costs
-				so it would be more accesible to individuals. The system could be easily
-				returned to a persistence library by switching to normal SQLite, this
-				would allow you to add tags and other organization ssystems.
-				Additionally, rather than a web-app hosted on the company servers, the
-				Electron was used to turn the system into a desktop app.
+                The first prototype was designed using a Python Flask API and some basic JavaScript, with a
+                very heavy SQL database. When I returned to this project, about two
+                years later, looking to add it to my portfolio, I switched this to use a
+                much lighter system, with an Express API instead of Flask, and relying
+                on JavaScript much more. The database was switched to in-memory SQL.
+                This of course meant no real persistence, but lowered the memory costs
+                so it would be more accessible to individuals. The system could be easily
+                returned to a persistence library by switching to normal SQLite, this
+                would allow you to add tags and other organization systems.
+                Additionally, rather than a web-app hosted on the company servers, the
+                Electron was used to turn the system into a desktop app.
+
 			</p>
 		</div>
 	);
