@@ -13,7 +13,7 @@ function App() {
     <>
       <Router>
       <ScrollToTop /> {/*This section counteracts the bs around using react hooks to change screens in an SPA */}
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/Lavender' element={<Lavender />} />

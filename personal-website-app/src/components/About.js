@@ -8,7 +8,7 @@ function About() {
 
             <div className="about-left">
                 <div className="about-image">
-                    <img src="images/about.jpeg" alt="Me!"/>
+                    <img src="images/about.webp" alt="Me!"/>
                 </div>
             </div>
 

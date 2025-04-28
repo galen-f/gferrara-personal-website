@@ -11,15 +11,17 @@ function Cards() {
                 <div className="cards__items">
 
                     <CardItem 
-                    src="images/lavender-icon.jpg"
+                    src="images/lavender-icon.webp"
                     text="Lavender Launcher"
+                    details="Custom Android Launcher focusing on non-addictive use"
                     label="Kotlin"
                     path='/wip'
                     />
 
                     <CardItem 
-                    src="images/pinecone-icon-bg.jpg"
+                    src="images/pinecone-icon-bg.webp"
                     text="Pinecone - Photo Organization"
+                    details="Desktop app which displays photos in a user-friendly manner"
                     label="JavaScript"
                     path='/Pinecone'
                     />

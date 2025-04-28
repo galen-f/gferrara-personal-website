@@ -1,7 +1,7 @@
 .contact {
     padding: 4rem;
     height: 100vh;
-    background: url('../../public/images/image-1.jpg') center center/cover no-repeat;
+    background: url('../../public/images/image-1-1440.webp') center center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -52,7 +52,7 @@ h1 {
 .contact__image img{
     width: 12rem;
     height: 12rem;
-  
+    transform: rotate(270deg); /* fucked up and compressed the image sideways so this works lol*/
     border-radius: 50%;
     object-fit: cover;
 }

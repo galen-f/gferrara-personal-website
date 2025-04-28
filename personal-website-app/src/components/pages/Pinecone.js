@@ -54,7 +54,7 @@ function PineconeHeroSection() {
 		
 			<div className='project-logo'>
 				<img
-					src='images/pinecone-icon-bg.jpg'
+					src='images/pinecone-icon-bg.webp'
 					alt='Pinecone Logo'
 					className='project-logo'
 				/>
