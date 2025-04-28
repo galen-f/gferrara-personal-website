@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Lavender from './components/pages/Lavender';
 import Pinecone from './components/pages/Pinecone';
@@ -13,7 +12,6 @@ function App() {
     <>
       <Router>
       <ScrollToTop /> {/*This section counteracts the bs around using react hooks to change screens in an SPA */}
-        {/* <Navbar /> */}
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/Lavender' element={<Lavender />} />
