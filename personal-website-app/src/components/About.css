@@ -1,6 +1,7 @@
 .about {
     padding-top: 4rem;
-    height: auto;
+    background: #fff;
+    min-height: 100vh;
 }
 
 .about-container {

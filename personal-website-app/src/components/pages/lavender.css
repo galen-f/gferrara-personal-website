@@ -1,0 +1,273 @@
+body {
+	background-color: #0D0D0D;
+    color: #fff;
+}
+
+.parallax-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 150vh;
+	background: url('../../../public/images/lavender-bg.webp') center center/cover no-repeat;
+	will-change: transform;
+	z-index: -1;
+}
+
+/* fade to black at bottom */
+.parallax-bg::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(transparent, #0D0D0D);
+	pointer-events: none;
+}
+
+.parallax-content {
+	position: relative;
+	z-index: 1;
+}
+
+/********************************* HERO *********************************/
+
+.lavender-hero-container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+    text-align: center;
+}
+
+
+.lavender-hero-title {
+	font-size: 100px;
+	margin-top: -100px;
+}
+
+.lavender-hero-container > h2 {
+	margin: 8px;
+	color: #fff;
+	font-size: 32px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+
+}
+
+.lavender-hero-details {
+	margin-top: 8px;
+	color: #fff;
+	font-size: 20px;
+	font-family: monospace;    
+}
+
+.lavender-btns-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1120px;
+
+	margin-bottom: 40px;
+}
+
+.lavender-hero-btns {
+	margin-top: 48px;
+}
+
+.lavender-hero-btns > a {
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0.5rem;
+	font-size: 16px;
+	padding: 12px;
+	outline: #fff solid 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+	margin: 1.2rem;
+}
+
+.lavender-hero-btns > a:hover {
+	color: #242424;
+	background-color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+.lavender-logo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/********************************* DETAILS *********************************/
+
+.lavender-details-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1120px;
+	height: 100vh;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.lavender-details-title {
+	color: #fff;
+	font-size: 52px;
+	margin-bottom: 12px;
+}
+
+.lavender-details-languages {
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+
+.lavender-details-text {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	color: #fff;
+	margin-bottom: 12px;
+	font-size: 20px;
+	margin: 20px;
+}
+
+/********************************* DEMO *********************************/
+
+.lavender-demo-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1120px;
+	min-height: 120vh;
+	width: 90%;
+    margin: auto;
+	margin-bottom: 150px;
+    padding-top: 100px;
+}
+
+.lavender-demo-title {
+	font-size: 52px;
+	margin-bottom: 12px;
+}
+
+.lavender-demo-subtitle {
+	font-size: 18px;
+	margin-bottom: 12px;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    padding-bottom: 15vh;
+}
+
+.lavender-demo-sub-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    height: 50vh;
+    min-height: 300px;
+    max-width: 800px;
+}
+
+.lavender-demo-details {
+    font-size: 22px;
+    text-align: auto;
+    margin: 100px;
+    max-width: 400px;
+    line-height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+.lavender-demo-img {
+	border-radius: 10px;
+	object-fit: cover;
+    max-height: 400px;
+    box-shadow: 0 0 18px rgba(255, 255, 255, 0.2);
+}
+
+/********************************* TABLET *********************************/
+
+@media screen and (max-width: 960px) {
+	.lavender-hero-container > h1 {
+		font-size: 70px;
+	}
+
+	.lavender-details-title {
+		font-size: 40px;
+	}
+
+	.lavender-details-languages {
+		font-size: 18px;
+	}
+
+	.lavender-details-text {
+		font-size: 16px;
+	}
+
+	.lavender-demo-title {
+		font-size: 40px;
+	}
+
+    .lavender-demo-sub-container{
+        height: 40vh;
+    }
+
+    .lavender-demo-details {
+        font-size: 20px;
+        line-height: 40px
+    }
+
+	.lavender-demo-img {
+		max-height: 300px;
+	}
+}
+
+/********************************* PHONE *********************************/
+
+@media screen and (max-width: 768px) {
+	.lavender-hero-container > h1 {
+		font-size: 50px;
+	}
+
+	.lavender-hero-container > h2 {
+		font-size: 22px;
+	}
+
+	.lavender-hero-details {
+		font-size: 16px;
+	}
+
+    .lavender-demo-sub-container{
+        height: 500px;
+        flex-flow: column;
+    }
+
+    .lavender-demo-details {
+        font-size: 16px;
+        line-height: 35px;
+
+        margin: 20px;
+    }
+
+	.lavender-demo-img {
+		max-width: 250px;
+	}
+}

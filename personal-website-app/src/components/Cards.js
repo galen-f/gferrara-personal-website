@@ -15,12 +15,12 @@ function Cards() {
                     text="Lavender Launcher"
                     details="Custom Android Launcher focusing on non-addictive use"
                     label="Kotlin"
-                    path='/wip'
+                    path='/Lavender'
                     />
 
                     <CardItem 
                     src="images/pinecone-icon-bg.webp"
-                    text="Pinecone - Photo Organization"
+                    text="Pinecone"
                     details="Desktop app which displays photos in a user-friendly manner"
                     label="JavaScript"
                     path='/Pinecone'
