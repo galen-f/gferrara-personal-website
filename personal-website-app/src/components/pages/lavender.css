@@ -1,6 +1,11 @@
-body {
+/* body {
 	background-color: #0D0D0D;
     color: #fff;
+} */
+
+:root {
+	--textColor: #fff;
+	--backgroundColor: #0D0D0D;
 }
 
 .parallax-bg {
@@ -24,7 +29,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(transparent, #0D0D0D);
+	background: linear-gradient(transparent, var(--backgroundColor));
 	pointer-events: none;
 }
 
@@ -54,7 +59,7 @@ body {
 
 .lavender-hero-container > h2 {
 	margin: 8px;
-	color: #fff;
+	color: var(--textColor);
 	font-size: 32px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
@@ -63,7 +68,7 @@ body {
 
 .lavender-hero-details {
 	margin-top: 8px;
-	color: #fff;
+	color: var(--textColor);
 	font-size: 20px;
 	font-family: monospace;    
 }
@@ -83,20 +88,20 @@ body {
 }
 
 .lavender-hero-btns > a {
-	color: #fff;
+	color: var(--textColor);
 	text-decoration: none;
 	margin-bottom: 0.5rem;
 	font-size: 16px;
 	padding: 12px;
-	outline: #fff solid 2px;
+	outline: var(--textColor) solid 2px;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 2px;
 	margin: 1.2rem;
 }
 
 .lavender-hero-btns > a:hover {
-	color: #242424;
-	background-color: #fff;
+	color: var(--backgroundColor);
+	background-color: var(--textColor);
 	transition: 0.3s ease-in-out;
 }
 
@@ -124,13 +129,13 @@ body {
 }
 
 .lavender-details-title {
-	color: #fff;
+	color: var(--textColor);
 	font-size: 52px;
 	margin-bottom: 12px;
 }
 
 .lavender-details-languages {
-	color: #fff;
+	color: var(--textColor);
 	font-size: 25px;
 	margin-bottom: 12px;
 	font-family: monospace;
@@ -140,7 +145,7 @@ body {
 .lavender-details-text {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
-	color: #fff;
+	color: var(--textColor);
 	margin-bottom: 12px;
 	font-size: 20px;
 	margin: 20px;
@@ -168,6 +173,7 @@ body {
 
 .lavender-demo-subtitle {
 	font-size: 18px;
+	color: var(--textColor);
 	margin-bottom: 12px;
 	align-items: center;
 	padding: 20px;
@@ -189,6 +195,7 @@ body {
 
 .lavender-demo-details {
     font-size: 22px;
+	color: var(--textColor);
     text-align: auto;
     margin: 100px;
     max-width: 400px;
@@ -232,7 +239,8 @@ body {
 
     .lavender-demo-details {
         font-size: 20px;
-        line-height: 40px
+        line-height: 40px;
+		text-align: center;
     }
 
 	.lavender-demo-img {

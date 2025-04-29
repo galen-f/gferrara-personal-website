@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 function Lavender() {
 	// Gave up css parallax for this simpler approach
 	useEffect(() => {
+		document.body.style.backgroundColor = '#0D0D0D'; // Set the bg color to match the image
+
 		const bg = document.querySelector('.parallax-bg');
 		const onScroll = () => {
 			const offset = window.pageYOffset;
@@ -13,7 +15,10 @@ function Lavender() {
 			bg.style.transform = `translateY(${offset * 0.45}px)`;
 		};
 		window.addEventListener('scroll', onScroll);
-		return () => window.removeEventListener('scroll', onScroll);
+		return () => {
+			window.removeEventListener('scroll', onScroll);
+			document.body.style.backgroundColor = 'transparent'; // Reset bg color for the other pages
+		};
 	}, []);
 
 	return (
@@ -121,7 +126,7 @@ function LavenderDemoSection() {
 			id='demo'>
 			<h1 className='lavender-demo-title'>Demo</h1>
 			<h2 className='lavender-demo-subtitle'>
-				Lavender is a Digital Self Control Tool aimed at reducing compulsive smartphone interactions. Here is a demonstration of many of its major features.
+				Lavender is a Digital Self Control Tool aimed at reducing compulsive smartphone interactions. It's major features include:
 			</h2>
 			<div className='lavender-demo-sub-container'>
 				<p className='lavender-demo-details'>
@@ -131,10 +136,11 @@ function LavenderDemoSection() {
                     <br />
                     Keeps Distractions Out of Sight
 				</p>
-				<img
+				<video
 					src='images/lavender-folders.gif'
 					alt='Lavender Demo Video 2'
 					className='lavender-demo-img'
+					loading='lazy'
 				/>
 			</div>
 			<div className='lavender-demo-sub-container'>
@@ -142,6 +148,7 @@ function LavenderDemoSection() {
 					src='images/lavender-dark-mode.gif'
 					alt='Lavender Demo Video 5'
 					className='lavender-demo-img'
+					loading='lazy'
 				/>
 				<p className='lavender-demo-details'>
 					Highly Customizable
@@ -159,6 +166,7 @@ function LavenderDemoSection() {
 					src='images/lavender-uninstall.gif'
 					alt='Lavender Demo Video 1'
 					className='lavender-demo-img'
+					loading='lazy'
 				/>
 			</div>
 
@@ -167,6 +175,7 @@ function LavenderDemoSection() {
 					src='images/lavender-high-friction.gif'
 					alt='Lavender Demo Video 3'
 					className='lavender-demo-img'
+					loading='lazy'
 				/>
 				<p className='lavender-demo-details'>
 					Screen-Time Reducing Features
@@ -187,6 +196,7 @@ function LavenderDemoSection() {
 					src='images/lavender-grey-scale.gif'
 					alt='Lavender Demo Video 4'
 					className='lavender-demo-img'
+					loading='lazy'
 				/>
 			</div>
 
@@ -195,6 +205,7 @@ function LavenderDemoSection() {
 					src='images/lavender-appdock.gif'
 					alt='Lavender Demo Video 6'
 					className='lavender-demo-img'
+					loading='lazy'
 				/>
 				<p className='lavender-demo-details'>
 					Additional Customization Options

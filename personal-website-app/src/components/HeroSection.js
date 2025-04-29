@@ -24,7 +24,7 @@ function HeroSection() {
           onClick={DownloadResume}
           > 
             RESUME 
-          <i class="bi bi-download"></i> 
+          <i className="bi bi-download"></i> 
         </Link>
 
         </div>

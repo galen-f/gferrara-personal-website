@@ -17,7 +17,7 @@ function PineconeHeroSection() {
 	return (
 		<div className='project-hero-container'>
 			<h1 className='project-hero-title'>Pinecone</h1>
-			<h2 classname='project-hero-subtitle'>Photo Organization Tool</h2>
+			<h2 className='project-hero-subtitle'>Photo Organization Tool</h2>
 			<p className='project-hero-details'>
 				JavaScript, Node.js, Electron, Express, SQLite
 			</p>
