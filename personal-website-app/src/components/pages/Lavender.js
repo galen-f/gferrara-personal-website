@@ -136,7 +136,7 @@ function LavenderDemoSection() {
                     <br />
                     Keeps Distractions Out of Sight
 				</p>
-				<video
+				<img
 					src='images/lavender-folders.gif'
 					alt='Lavender Demo Video 2'
 					className='lavender-demo-img'
