@@ -67,7 +67,7 @@ function LavenderHeroSection() {
 						buttonStyle='btn--outline'
 						buttonSize='btn--large'
 						target='_blank'
-						to='https://github.com/galen-f/pinecone'>
+						to='https://github.com/galen-f/Lavender-Launcher'>
 						<i className='bi bi-github'></i> GITHUB{' '}
 					</Link>
 				</div>
