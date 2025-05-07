@@ -145,6 +145,7 @@
     margin-bottom: 60px;
     border-radius: 10px;
     object-fit: cover;
+    max-height: 60vh;
 }
 
 /********************************* TABLET *********************************/

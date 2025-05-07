@@ -27,6 +27,14 @@ function Cards() {
                     />
 
                     <CardItem
+                    src="images/mp4player-icon.webp"
+                    text="MP4 Player"
+                    details="Legacy Design Android MP4 Player"
+                    label="Java"
+                    path='/Mp4Player'
+                    />
+
+                    <CardItem
                     src='images/wip.jpg'
                     text="More coming soon!"
                     label="Various"
