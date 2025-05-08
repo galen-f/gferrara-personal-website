@@ -21,7 +21,7 @@ function Contact() {
 
                 <div className="contact__right">
                     <div className="contact__details">
-                        <p>Galen.ferrara557@gmail.com</p>
+                        <p>ferraragalen@gmail.com</p>
                         <p>+44 7918 577677 (UK)</p>
                         <p>+1 (845) 798 9409 (US)</p>
                     </div>
