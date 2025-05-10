@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../../App.css';
+import DemoSlides from '../DemoSlides';
 import './lavender.css';
 import { Link } from 'react-router-dom';
 
@@ -27,8 +28,8 @@ function Lavender() {
 			<div className='parallax-content'>
 				<LavenderHeroSection />
 				<LavenderDetailsSection />
-
-				<LavenderDemoSection />
+				<DemoSlides />
+				{/* <LavenderDemoSection /> */}
 			</div>
 		</>
 	);
@@ -99,15 +100,15 @@ function LavenderDetailsSection() {
 			<p className='lavender-details-text'>
 				Lavender is an Android Launcher app, effectively a home app. This was my
 				dissertation project and was paired with a behavioral psychology paper
-				reviewing the addictive design tactics employed by many modern apps. Lavender
-				was designed to encourage intentional engagement and to promote healthy
-				smartphone interactions.
+				reviewing the addictive design tactics employed by many modern apps.
+				Lavender was designed to encourage intentional engagement and to promote
+				healthy smartphone interactions.
 				<br />
 				<br />
 				It includes features like screen-time tracking, monochrome app icons,
 				and a minimalist UI. Initial user tests conducted as part of the
-				dissertation were promising in regards to how effectively it accomplished
-				it's screen time-reduction goals.
+				dissertation were promising in regards to how effectively it
+				accomplished it's screen time-reduction goals.
 				<br />
 				<br />
 				The project acquainted me with the Android development stack and
@@ -121,99 +122,7 @@ function LavenderDetailsSection() {
 
 function LavenderDemoSection() {
 	return (
-		<div
-			className='lavender-demo-container'
-			id='demo'>
-			<h1 className='lavender-demo-title'>Demo</h1>
-			<h2 className='lavender-demo-subtitle'>
-				Lavender is a Digital Self Control Tool aimed at reducing compulsive smartphone interactions. It's major features include:
-			</h2>
-			<div className='lavender-demo-sub-container'>
-				<p className='lavender-demo-details'>
-					Minimal UI
-                    <br />
-                    Text-Based folders
-                    <br />
-                    Keeps Distractions Out of Sight
-				</p>
-				<img
-					src='images/lavender-folders.gif'
-					alt='Lavender Demo Video 2'
-					className='lavender-demo-img'
-					loading='lazy'
-				/>
-			</div>
-			<div className='lavender-demo-sub-container'>
-				<img
-					src='images/lavender-dark-mode.gif'
-					alt='Lavender Demo Video 5'
-					className='lavender-demo-img'
-					loading='lazy'
-				/>
-				<p className='lavender-demo-details'>
-					Highly Customizable
-                    <br />
-                    Integrates with Material You
-				</p>
-			</div>
-			<div className='lavender-demo-sub-container'>
-				<p className='lavender-demo-details'>
-					Deep Integration with Android
-                    <br />
-                    Allows for Package Manipulation
-				</p>
-				<img
-					src='images/lavender-uninstall.gif'
-					alt='Lavender Demo Video 1'
-					className='lavender-demo-img'
-					loading='lazy'
-				/>
-			</div>
-
-			<div className='lavender-demo-sub-container'>
-				<img
-					src='images/lavender-high-friction.gif'
-					alt='Lavender Demo Video 3'
-					className='lavender-demo-img'
-					loading='lazy'
-				/>
-				<p className='lavender-demo-details'>
-					Screen-Time Reducing Features
-                    <br />
-                    Increased Friction for App Launches
-				</p>
-			</div>
-
-			<div className='lavender-demo-sub-container'>
-				<p className='lavender-demo-details'>
-					Monochrome App icons
-                    <br />
-                    Reduces Visual Distractions
-                    <br />
-                    Healthier Phone Use
-				</p>
-				<img
-					src='images/lavender-grey-scale.gif'
-					alt='Lavender Demo Video 4'
-					className='lavender-demo-img'
-					loading='lazy'
-				/>
-			</div>
-
-			<div className='lavender-demo-sub-container'>
-				<img
-					src='images/lavender-appdock.gif'
-					alt='Lavender Demo Video 6'
-					className='lavender-demo-img'
-					loading='lazy'
-				/>
-				<p className='lavender-demo-details'>
-					Additional Customization Options
-                    <br />
-                    Customizable App Dock
-				</p>
-			</div>
-		</div>
+		<p>Demo Section</p>
 	);
 }
 
