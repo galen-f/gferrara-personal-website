@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import '../../App.css';
 import DemoSlides from '../DemoSlides';
 import './lavender.css';
@@ -117,12 +117,6 @@ function LavenderDetailsSection() {
 				future.
 			</p>
 		</div>
-	);
-}
-
-function LavenderDemoSection() {
-	return (
-		<p>Demo Section</p>
 	);
 }
 
