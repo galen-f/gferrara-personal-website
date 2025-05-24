@@ -187,12 +187,16 @@
 
 .lavender-demo-sub-container {
     display: flex;
-	flex-direction: column;
-    justify-content: center;
+	justify-content: center;
     align-items: center;
     height: 64vh;
     min-height: 300px;
     max-width: 1000px;
+}
+
+.lavender-slide {
+	display: flex;
+	flex-direction: row;
 }
 
 .lavender-demo-details {
@@ -242,7 +246,7 @@
 
 .slide {
 	animation-name: fade;
-	animation-duration: 2.3s;
+	animation-duration: 1.8s;
 }
 
 @keyframes fade {
@@ -279,16 +283,25 @@
 
     .lavender-demo-sub-container{
         height: 40vh;
+		margin-top: 10vh;
+		margin-bottom: 10vh;
     }
 
     .lavender-demo-details {
         font-size: 20px;
         line-height: 40px;
-		text-align: center;
+		text-align: left;
     }
 
-	.lavender-demo-img {
-		max-height: 300px;
+	.lavender-demo-img{
+		max-height: 300px
+	}
+
+	.lavender-slide {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
 	}
 }
 
