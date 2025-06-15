@@ -8,7 +8,7 @@ function About() {
 				<div className='about-left'>
 					<div className='about-image'>
 						<img
-							src='images/about.webp'
+							src='images/HeadShot-2.webp'
 							alt='Me!'
 						/>
 					</div>
@@ -26,14 +26,13 @@ function About() {
 					<div className='about-text'>
 						<p>
 							I got into coding through a love of gaming and building PCs, and
-							never stopped building. My projects range from android apps to IoT
-							robots. I am always looking for ideas tha tblend utility and a
+							never stopped building. My projects range from android apps to financial simulations. 
+							I am always looking for ideas that blend utility and a
 							little fun.
 						</p>
 						<p>
 							Outside of tech, I am into photography, and sports, life archer,
-							lacrosse, and more recently tennis, though I am still pretty
-							terrible at tennis. Every photo on this site was taken by me and
+							lacrosse, and more recently tennis. Every photo on this site was taken by me and
 							my Nikon Z6.
 						</p>
 						<p>

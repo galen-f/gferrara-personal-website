@@ -15,7 +15,7 @@ function Contact() {
                 <div className="contact__left">
                     
                     <div className="contact__image">
-                        <img src="images/profile-pic.webp" alt="Me!" loading='lazy'/>
+                        <img src="images/HeadShot-1.webp" alt="Me!" loading='lazy'/>
                     </div>
                 </div>
 
