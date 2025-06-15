@@ -15,7 +15,7 @@ function Pinecone() {
 
 function PineconeHeroSection() {
 	return (
-		<div className='project-hero-container'>
+		<div className='pinecone project-hero-container'>
 			<h1 className='project-hero-title'>Pinecone</h1>
 			<h2 className='project-hero-subtitle'>Photo Organization Tool</h2>
 			<p className='project-hero-details'>

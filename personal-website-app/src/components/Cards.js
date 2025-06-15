@@ -18,6 +18,14 @@ function Cards() {
                     path='/Lavender'
                     />
 
+                    <CardItem
+                    src="images/Stock-Sim-Icon.webp"
+                    text="Trading Simulator"
+                    details="C++ based simulation of a trading platorm"
+                    label="C++"
+                    path='/TradingSimulator'
+                    />
+
                     <CardItem 
                     src="images/pinecone-icon-bg.webp"
                     text="Pinecone"

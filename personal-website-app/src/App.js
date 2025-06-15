@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import Home from './components/pages/Home';
 import Lavender from './components/pages/Lavender';
+import TradingSimulator from './components/pages/TradingSimulator';
 import Pinecone from './components/pages/Pinecone';
 import Mp4Player from './components/pages/mp4';
 import WIP from './components/pages/Work-in-Progress';
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/Lavender' element={<Lavender />} />
+          <Route path='/TradingSimulator' element={<TradingSimulator />} />
           <Route path='/Pinecone' element={<Pinecone />} />
           <Route path='/Mp4Player' element={<Mp4Player />} />
           <Route path='/wip' element={<WIP />} />
