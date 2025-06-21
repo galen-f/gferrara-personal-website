@@ -19,6 +19,14 @@ function Cards() {
                     />
 
                     <CardItem
+                    src="images/backtester-icon.webp"
+                    text="Backtester"
+                    details="Trading strategy backtesting and visualization tool"
+                    label="Python"
+                    path='/Backtester'
+                    />
+
+                    <CardItem
                     src="images/Stock-Sim-Icon.webp"
                     text="Trading Simulator"
                     details="C++ based simulation of a trading platorm"
@@ -26,7 +34,9 @@ function Cards() {
                     path='/TradingSimulator'
                     />
 
-                    <CardItem 
+                </div>
+                <div className="cards__items">
+                  <CardItem 
                     src="images/pinecone-icon-bg.webp"
                     text="Pinecone"
                     details="Desktop app which displays photos in a user-friendly manner"
@@ -48,7 +58,7 @@ function Cards() {
                     label="Various"
                     path='/wip'
                     />
-                </div>
+                    </div>
             </div>
         </div>
     </div>

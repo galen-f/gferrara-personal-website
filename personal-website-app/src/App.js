@@ -5,6 +5,7 @@ import Lavender from './components/pages/Lavender';
 import TradingSimulator from './components/pages/TradingSimulator';
 import Pinecone from './components/pages/Pinecone';
 import Mp4Player from './components/pages/mp4';
+import Backtester from './components/pages/Backtester';
 import WIP from './components/pages/Work-in-Progress';
 import Footer from './components/Footer';
 import {BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
@@ -20,6 +21,7 @@ function App() {
           <Route path='/TradingSimulator' element={<TradingSimulator />} />
           <Route path='/Pinecone' element={<Pinecone />} />
           <Route path='/Mp4Player' element={<Mp4Player />} />
+          <Route path='/Backtester' element={<Backtester />} />
           <Route path='/wip' element={<WIP />} />
         </Routes>
         <Footer />
