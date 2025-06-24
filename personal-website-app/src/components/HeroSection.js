@@ -33,14 +33,14 @@ function HeroSection() {
   )
 }
 
-function DownloadResume() {
-  const link = document.createElement('a');
-  link.href = '/files/Resume_Galen_Ferrara.pdf';
-  link.download = 'Resume_Galen_Ferrara.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
+// function DownloadResume() {
+//   const link = document.createElement('a');
+//   link.href = '/files/Resume_Galen_Ferrara.pdf';
+//   link.download = 'Resume_Galen_Ferrara.pdf';
+//   document.body.appendChild(link);
+//   link.click();
+//   document.body.removeChild(link);
+// }
 
 function ScrollToContact() {
   const contactSection = document.getElementById('contact');
