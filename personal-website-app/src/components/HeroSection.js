@@ -17,7 +17,7 @@ function HeroSection() {
         <Link className='btns' buttonStyle='btn--outline'
         buttonSize='btn--large' onClick={ScrollToContact}> CONTACT ME </Link>
 
-        <Link 
+        {/* <Link 
           className='btns' 
           buttonStyle='btn--primary' 
           buttonSize='btn--large'
@@ -25,7 +25,7 @@ function HeroSection() {
           > 
             RESUME 
           <i className="bi bi-download"></i> 
-        </Link>
+        </Link> */}
 
         </div>
 
