@@ -77,7 +77,7 @@ function TradingSimulatorDetailsSection() {
 				<br />
 				<br />
 				The simulator is intended to showcase my skills, not only as a
-				developer, but a mathmetician and quanititative analyst. As I have a
+				developer, but a mathematician and quantitative analyst. As I have a
 				degree in mathematics, I feel this aspect of my skillset is often
 				overlooked. I love number crunching, and while this is still a project
 				in progress, a short peek at the github page hopefully helps you to
