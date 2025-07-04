@@ -18,6 +18,14 @@ function Cards() {
                     path='/Lavender'
                     />
 
+                    <CardItem 
+                    src="images/orderbookpredictor-icon.webp"
+                    text="Order Book Predictor"
+                    details="Machine learning algorithm to predict short-term stock movement."
+                    label="Python"
+                    path='/Orderbookpredictor'
+                    />
+
                     <CardItem
                     src="images/backtester-icon.webp"
                     text="Backtester"
@@ -26,16 +34,16 @@ function Cards() {
                     path='/Backtester'
                     />
 
-                    <CardItem
+                </div>
+                <div className="cards__items">
+                  <CardItem
                     src="images/Stock-Sim-Icon.webp"
                     text="Trading Simulator"
-                    details="C++ based simulation of a trading platorm"
+                    details="C++ based simulation of a trading platform"
                     label="C++"
                     path='/TradingSimulator'
                     />
 
-                </div>
-                <div className="cards__items">
                   <CardItem 
                     src="images/pinecone-icon-bg.webp"
                     text="Pinecone"
@@ -51,14 +59,17 @@ function Cards() {
                     label="Java"
                     path='/Mp4Player'
                     />
-
+                    
+                  </div>
+                    <div className="cards__items">
                     <CardItem
                     src='images/wip.jpg'
                     text="More coming soon!"
                     label="Various"
                     path='/wip'
                     />
-                    </div>
+
+                  </div>
             </div>
         </div>
     </div>

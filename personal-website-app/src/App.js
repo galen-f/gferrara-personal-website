@@ -7,6 +7,7 @@ import Pinecone from './components/pages/Pinecone';
 import Mp4Player from './components/pages/mp4';
 import Backtester from './components/pages/Backtester';
 import WIP from './components/pages/Work-in-Progress';
+import Orderbookpredictor from './components/pages/Orderbookpredictor';
 import Footer from './components/Footer';
 import {BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/Pinecone' element={<Pinecone />} />
           <Route path='/Mp4Player' element={<Mp4Player />} />
           <Route path='/Backtester' element={<Backtester />} />
+          <Route path='/Orderbookpredictor' element={<Orderbookpredictor />} />
           <Route path='/wip' element={<WIP />} />
         </Routes>
         <Footer />
