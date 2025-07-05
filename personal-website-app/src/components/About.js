@@ -1,4 +1,3 @@
-import React from 'react';
 import './About.css';
 
 function About() {
@@ -35,8 +34,7 @@ function About() {
 						</p>
 						<p>
 							Additionally, I have a degree in mathematics, and love
-							quantitative tasks. I am currently trying to build my skills in
-							that field and am open to financial roles.
+							quantitative tasks. I am currently looking for work in the financial sector.
 						</p>
 						<p>
 							If you have an idea for a project, or have a vacancy in your
