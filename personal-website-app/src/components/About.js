@@ -17,7 +17,7 @@ function About() {
 					<div className='about-title'>
 						<h2>
 							Hi! I'm Galen Ferrara, a software developer, tinkerer, and grad
-							from the University of Nottingham
+							from the University of Nottingham.
 						</h2>
 						
 					</div>
@@ -37,8 +37,7 @@ function About() {
 							quantitative tasks. I am currently looking for work in the financial sector.
 						</p>
 						<p>
-							If you have an idea for a project, or have a vacancy in your
-							company, please reach out!
+							If you have an idea for a project feel free to reach out!
 						</p>
 					</div>
 				</div>
